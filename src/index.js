@@ -5,6 +5,8 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './store'
 import './index.css';
 import App from './App';
 import Expenses from './routes/expenses';
@@ -14,15 +16,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Provider store={store}>
+    <React.StrictMode>
     <BrowserRouter>
-       {/* <Routes>
-          <Route path="/" element={<App/>}/>
-          <Route path="expenses" element={<Expenses
-          />}/>
-        <Route path="invoices" element={<Invoices
-        />}/>
-       </Routes> */}
        <Routes>
          <Route path="/" element={<App/>}>
          <Route index
@@ -54,6 +50,7 @@ root.render(
        </Routes>
     </BrowserRouter>
   </React.StrictMode>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

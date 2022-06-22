@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 import './css/01-index.css' //导入 css模块，  webpack的支持。
 

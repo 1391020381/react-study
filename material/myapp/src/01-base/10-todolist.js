@@ -1,11 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 
 import React, { Component } from 'react'
 import './css/01-index.css'
@@ -67,7 +60,7 @@ export default class App extends Component {
     }
 
     handleClick2 = ()=>{
-        console.log("click2",this.myref.current.value)
+        console.log("click2",this,this.myref,this.myref.current.value)
 
         // this.setState
 
@@ -91,7 +84,7 @@ export default class App extends Component {
 
 
     handleDelClick(index){
-        console.log("del-click",index)
+        console.log("del-click",index,this)
 
         // 不要直接修改状态， 可能会造成不可预期的问题。
 

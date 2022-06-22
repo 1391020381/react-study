@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 import axios from 'axios'
 import BetterScroll from 'better-scroll'
@@ -14,7 +11,7 @@ export default class App extends Component {
 
     componentDidMount(){
         axios.get("/test.json").then(res=>{
-            console.log(res.data.data.films)
+            console.log('componentDidMount:',res.data.data.films)
 
             this.setState({
                 list:res.data.data.films

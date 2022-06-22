@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 import BetterScroll from 'better-scroll'
 export default class App extends Component {
@@ -25,7 +22,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <div id="wrapper" style={{height:"200px",background:"yellow",overflow:"hidden"}}>
+                <div id="wrapper" style={{height:"100px",background:"yellow",overflow:"hidden"}}>
                     <ul>
                         {
                             this.state.list.map(item=>

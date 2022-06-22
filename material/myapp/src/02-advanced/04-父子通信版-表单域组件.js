@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 
 
@@ -21,8 +18,8 @@ class Field extends Component{
 export default class App extends Component {
 
     state = {
-        username:localStorage.getItem("username"),
-        password:""
+        username:localStorage.getItem("username")||'justdoit',
+        password:"123456"
     }
 
     render() {

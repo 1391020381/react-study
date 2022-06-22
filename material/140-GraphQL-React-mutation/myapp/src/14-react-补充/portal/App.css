@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.left,.right{
+    height: 100vh;
+}
+
+.box{
+    display:flex;
+}
+
+.left{
+    width: 200px;
+    background:yellow;
+    position: relative;
+    z-index: 10;
+}
+
+.right{
+    /* width: 200px; */
+    flex:1;
+    background:blue;
+    position: relative;
+    z-index: 5
+}

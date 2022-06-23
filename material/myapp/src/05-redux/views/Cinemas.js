@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React,{useState,useEffect} from 'react'
 import getCinemaListAction from '../redux/actionCreator/getCinemaListAction'
 import store from '../redux/store'

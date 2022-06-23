@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 import './App.css'
 import PortalDialog from './compoents/PortalDialog'
@@ -25,7 +22,7 @@ export default class App extends Component {
                     }}>ajax</button>
                     {
                         this.state.isShow && <PortalDialog onClose={()=>{
-                            // console.log("111111")
+                            
                             this.setState({
                                 isShow:false
                             })

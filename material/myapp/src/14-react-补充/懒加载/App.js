@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component, Suspense } from 'react'
 // import Comingsoon from './components/Comingsoon'
 // import Nowplaying from './components/Nowplaying'

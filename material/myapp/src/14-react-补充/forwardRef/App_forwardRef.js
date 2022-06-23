@@ -1,9 +1,7 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component, forwardRef } from 'react'
 
+// React.forwardRef 会创建一个React组件,这个组件能够将其接受的ref属性转发到其他组件树下的另一个组件中。
 export default class App extends Component {
     mytext =React.createRef()
 

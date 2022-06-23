@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import style from  './Tabbar.module.css'

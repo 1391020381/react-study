@@ -5,7 +5,7 @@ import Tabbar from './components/Tabbar'
 import './views/css/App.css'
 
 import {connect} from 'react-redux'
-// import store from './redux/store'
+// import {store} from './redux/store'
 class App extends Component {
     componentDidMount() {
         // console.log(this.props)

@@ -1,11 +1,9 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 // console.log("hello world kerwin")
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+// import {Provider} from 'react-redux'
+// import {store} from './06-react-redux/redux/store.js'
 // import App from './14-react-补充/memo/App'
 // import App from './01-base/10-todolist.js'
 // import App from './01-base/11-dangerouslySetInnerHTML.js'
@@ -55,14 +53,16 @@ import ReactDOM from 'react-dom'
 // import App from './03-hooks/16-自定义hooks.js'
 // import App from './04-router/App.js'
 // import App from './05-redux/App.js'
-import App from './06-react-redux/App.js'
+// import App from './06-react-redux/App.js'
+// import App from './09-immutable/01-base.js'
+import App from './09-immutable/02-map.js'
 // import {Provider}  from 'mobx-react'
 // import store from './10-mobx/04-router/mobx/store'
 ReactDOM.render(
     // <React.StrictMode>
-    // <Provider store={store}>
+     //<Provider store={store}>
         <App/>
-    // </Provider>
+     //</Provider>
     
     // </React.StrictMode>
     ,document.getElementById("root"))

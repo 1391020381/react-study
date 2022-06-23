@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 /*
   1. npm i immutabel
@@ -16,7 +13,7 @@ var obj = {
 
 var oldImmuObj = Map(obj)
 var newImmuObj = oldImmuObj.set("name","xiaoming")
-// console.log(oldImmuObj,newImmuObj)
+console.log(oldImmuObj,newImmuObj)
 
 //1 get获取immutalble 
 

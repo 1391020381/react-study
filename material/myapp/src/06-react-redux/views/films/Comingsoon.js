@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import axios from 'axios'
 import React, { Component } from 'react'
 

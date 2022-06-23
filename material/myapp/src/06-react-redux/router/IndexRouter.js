@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component } from 'react'
 import { HashRouter as Router,Redirect,Route,Switch} from 'react-router-dom'
 import Films from '../views/Films'

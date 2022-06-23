@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React,{useEffect} from 'react'
 import { show,hide } from '../redux/actionCreator/TabbarActionCreator'
 import {connect} from 'react-redux'

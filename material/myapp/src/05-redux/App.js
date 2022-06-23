@@ -11,7 +11,7 @@ export default class App extends Component {
 
     componentDidMount() {
         store.subscribe(()=>{
-            // console.log("app 中订阅",store.getState())
+            console.log("app 中订阅",store.getState())
 
             this.setState({
                 isShow:store.getState().TabbarReducer.show

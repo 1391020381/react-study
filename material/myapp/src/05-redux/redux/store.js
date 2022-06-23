@@ -6,6 +6,8 @@
  import CityReducer from './reducers/CityReducer'
  import TabbarReducer from './reducers/TabbarReducer'
  import CinemaListReducer from './reducers/CinemaListReducer'
+
+ // redux-thunk 是非常简单的异步处理方案
  import reduxThunk from 'redux-thunk'
  import reduxPromise from 'redux-promise'
  const reducer  = combineReducers({

@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 
  import React,{useReducer} from 'react'
  //处理函数
@@ -28,6 +25,8 @@
  } 
 
  export default function App() {
+    // useState的替代方案。它接收一个形如(state,action) => newState的 reducer
+    // 并返回当前的 state以及与其配套的dispatch方法。
      const [state, dispatch] = useReducer(reducer,intialState)
 
      return (

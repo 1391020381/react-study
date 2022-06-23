@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { useEffect,useContext,useReducer } from 'react'
 import axios from 'axios'
 import './css/index.css'

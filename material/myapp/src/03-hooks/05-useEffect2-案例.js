@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component ,useLayoutEffect,useState} from 'react'
 import axios from 'axios'
 export default class App extends Component {
@@ -33,6 +30,11 @@ export default class App extends Component {
 
 function FilmList (props){
     const [list, setlist] = useState([])
+    // useLayoutEffect 其函数签名与 useEffect相同,但它会在所有的dom变更之后调用effect。
+    //  可以使用它来读取dom布局并同步更新触发渲染。
+    // 在浏览器执行绘制之前,useLayoutEffect内部的更新计划将被同步刷新。
+    // 尽可能使用标准的 useEffect以避免阻塞视觉更新。
+    // useLayoutEffect 与 componentDidMount  componentDidUpdate的调用阶段是一样的。
     useLayoutEffect(() => {
         if(props.type===1){
             //请求卖座正在热映的数据

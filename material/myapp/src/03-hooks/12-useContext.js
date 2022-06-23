@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { useState,useEffect,useContext } from 'react'
 import axios from 'axios'
 import './css/index.css'
@@ -47,6 +44,9 @@ export default function App (){
 
 function FilmItem(props){
     let {name, poster,grade,synopsis}  = props
+    // 接受一个 context对象(React.createContext的返回值) 
+    // 并返回该 context的当前值。
+    // 当前的context值由上层组件中距离当前组件最近的 <MyContext.Provider> value prop决定
     const value = useContext(GlobalContext)
 
     // console.log(context)

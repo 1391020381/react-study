@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 import React, { Component,useLayoutEffect } from 'react'
 
 export default class App extends Component {
@@ -25,6 +22,7 @@ export default class App extends Component {
 
 
 function Child (){
+    //  useLayoutEffect 返回销毁函数
     useLayoutEffect(() => {
         window.onresize = ()=>{
             console.log("resize")
